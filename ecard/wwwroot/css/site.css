@@ -1,6 +1,6 @@
 body {
-    background: #000;
-    color: #fff;
+    background: #fff; /*white*/
+    color: #000; /*black*/
     font-family: Arial;
     font-size: 22px;
 }
@@ -18,13 +18,28 @@ a {
         color: #94268c;
     }
 
+   /*########### BOOTSTRAP OVERIDES###########################*/
+
 .carousel-inner .item .images {
     width: 70%;
     margin: auto;
 }
 
-.carousel-caption {
+/*Removes shading behind the controls */
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+    outline: 0;
+    opacity: 1;
+}
+
+
+/*.carousel-indicators{
+    color: #000000;
+}*/
+
+
+/*.carousel-caption {
     opacity: .5;
     color: #fff;
     background: #000;
-}
+}*/
